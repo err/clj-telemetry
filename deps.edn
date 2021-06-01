@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure                            {:mvn/version "1.10.0"}
+        io.opentelemetry/opentelemetry-api             {:mvn/version "0.13.1"}
+        io.opentelemetry/opentelemetry-sdk             {:mvn/version "0.13.1"}
+        io.opentelemetry/opentelemetry-exporter-jaeger {:mvn/version "0.13.1"}
+        io.grpc/grpc-protobuf                          {:mvn/version "1.34.1"}
+        io.grpc/grpc-netty-shaded                      {:mvn/version "1.34.1"}}}
